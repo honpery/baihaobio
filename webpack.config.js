@@ -16,7 +16,8 @@ module.exports = {
         loaders: [
             { test: /\.css?$/, loader: 'style!css' },
             { test: /\.less$/, loader: 'style!css!less' },
-            { test: /\.css$/, loader: ExtractTextPlugin.extract("style", "css") }
+            { test: /\.css$/, loader: ExtractTextPlugin.extract("style", "css") },
+            { test: /.(png|jpg)$/, loader: 'url-loader?limit=8192' }
         ]
     },
     plugins: [

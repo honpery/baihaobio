@@ -1,0 +1,64 @@
+.header {
+    font-size: @normalFontSize;
+    background: @headerBgColor;
+    height: @headerHeight;
+    overflow: hidden;
+    color: @headerFontColor;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    left: 15px;
+	width: 100%;
+    a {
+        color: @headerFontColor;
+    }
+}
+
+.logo {
+    float: left;
+    a {
+        display: inline-block;
+        height: 2rem;
+        line-height: @headerHeight;
+    }
+    img {
+        float: left;
+    }
+    h1 {
+        margin: 0;
+        font-size: 0.8rem;
+        line-height: 1.5rem;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        font-size: 0.6rem;
+        line-height: 0.6rem;
+    }
+}
+
+.search {
+    float: right;
+    padding-top: 0.6rem;
+    // display: none;
+    height: @headerHeight;
+    div {
+    	border: 1px solid @headerFontColor;
+		border-radius: 4px;
+    }
+    input,
+    button {
+        background: @headerBgColor;
+        border: none;
+    }
+}
+
+nav {
+    float: right;
+    li {
+        width: @navItemWidth;
+        line-height: @headerHeight;
+        text-align: center;
+        display: inline-block;
+    }
+}

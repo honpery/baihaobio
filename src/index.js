@@ -1,2 +1,1 @@
-require('./less/footer.less');
-
+require('./less/style.less');
