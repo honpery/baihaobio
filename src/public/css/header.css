@@ -2,7 +2,6 @@
   font-size: 14px;
   background: #2a2a2a;
   height: 3rem;
-  overflow: hidden;
   color: #fcfcfc;
   position: absolute;
   z-index: 99;
@@ -12,6 +11,7 @@
 }
 .header a {
   color: #fcfcfc;
+  text-decoration: none;
 }
 .logo {
   float: left;
@@ -64,10 +64,33 @@
 }
 nav {
   float: right;
+  padding-right: 2rem;
 }
-nav li {
-  width: 5rem;
-  line-height: 3rem;
-  text-align: center;
+nav > ul > li {
   display: inline-block;
+  width: 5rem;
+  position: relative;
+}
+nav > ul > li > a {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  line-height: 3rem;
+}
+nav > ul > li > ul {
+  display: none;
+  position: absolute;
+  width: 8rem;
+  left: -2rem;
+  margin: 0;
+  display: block;
+}
+nav > ul > li > ul a {
+  display: block;
+  width: 100%;
+  background: red;
+  height: 100%;
+  line-height: 2rem;
+  text-align: center;
 }
