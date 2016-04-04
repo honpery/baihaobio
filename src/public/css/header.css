@@ -1,0 +1,73 @@
+.header {
+  font-size: 14px;
+  background: #2a2a2a;
+  height: 3rem;
+  overflow: hidden;
+  color: #fcfcfc;
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  left: 15px;
+  width: 100%;
+}
+.header a {
+  color: #fcfcfc;
+}
+.logo {
+  float: left;
+}
+.logo a {
+  padding-top: 0.3rem;
+  display: inline-block;
+  height: 2rem;
+  line-height: 3rem;
+}
+.logo img {
+  float: left;
+}
+.logo h1 {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+}
+.logo p {
+  margin: 0;
+  padding: 0;
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+}
+.search {
+  float: right;
+  padding-top: 0.7rem;
+  height: 3rem;
+}
+.search div {
+  border: 1px solid #fcfcfc;
+  border-radius: 10px;
+  position: relative;
+}
+.search input,
+.search button {
+  line-height: 2;
+  background: #2a2a2a;
+  border: none;
+}
+.search input {
+  margin-right: 0.2rem;
+  padding-left: 0.4rem;
+  width: 100%;
+}
+.search button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+nav {
+  float: right;
+}
+nav li {
+  width: 5rem;
+  line-height: 3rem;
+  text-align: center;
+  display: inline-block;
+}

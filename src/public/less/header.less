@@ -1,3 +1,5 @@
+@import url('./var.less');
+
 .header {
     font-size: @normalFontSize;
     background: @headerBgColor;
@@ -17,6 +19,7 @@
 .logo {
     float: left;
     a {
+        padding-top: 0.3rem;
         display: inline-block;
         height: 2rem;
         line-height: @headerHeight;
@@ -39,17 +42,29 @@
 
 .search {
     float: right;
-    padding-top: 0.6rem;
+    padding-top: 0.7rem;
     // display: none;
     height: @headerHeight;
     div {
     	border: 1px solid @headerFontColor;
-		border-radius: 4px;
+		border-radius: 10px;
+        position: relative;
     }
     input,
     button {
+        line-height: 2;
         background: @headerBgColor;
         border: none;
+    }
+    input {
+        margin-right: 0.2rem;
+        padding-left: 0.4rem;
+        width: 100%;
+    }
+    button {
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 }
 
