@@ -62,30 +62,30 @@
   right: 0;
   top: 0;
 }
-nav {
+.header nav {
   float: right;
   padding-right: 2rem;
 }
-nav > ul > li {
+.header nav > ul > li {
   display: inline-block;
   width: 5rem;
   position: relative;
 }
-nav > ul > li > a {
+.header nav > ul > li > a {
   display: block;
   height: 100%;
   width: 100%;
   text-align: center;
   line-height: 3rem;
 }
-nav > ul > li > ul {
+.header nav > ul > li > ul {
   display: none;
   position: absolute;
   width: 8rem;
   left: -2rem;
   margin: 0;
 }
-nav > ul > li > ul a {
+.header nav > ul > li > ul a {
   display: block;
   width: 100%;
   background: red;

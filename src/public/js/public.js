@@ -9,4 +9,13 @@ $(document).ready(function() {
 		$(this).find('ul').hide();
 	});
 
+
+	// page public
+	$(document).on('click', '.tabs li', function (e) {
+		e.preventDefault();
+		$(this).addClass('active').siblings('.active').removeClass('active');
+	});
+
+
+
 });
