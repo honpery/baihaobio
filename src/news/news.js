@@ -10,5 +10,4 @@ $(document).ready(function() {
 		$($('.main .page')[_index]).addClass('active');
 	});
 
-
 });
