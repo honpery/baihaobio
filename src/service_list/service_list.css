@@ -22,8 +22,18 @@
   color: white;
   background: #09dada;
 }
+.main > header ul li.active a {
+  background: #09dada;
+  color: white;
+}
 .main > header ul li:first-child {
   text-align: center;
+}
+.main .info {
+  display: none;
+}
+.main .info.active {
+  display: block;
 }
 .main .info header {
   overflow: hidden;

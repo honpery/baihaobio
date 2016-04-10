@@ -187,6 +187,9 @@ ol {
 .section {
   padding: 2rem 0;
 }
+.active {
+  display: block;
+}
 .tabs {
   padding: 0 0 1.5rem 0;
 }
